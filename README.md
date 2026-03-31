@@ -31,24 +31,7 @@ Library-Management-System/
 ├── scripts/
 │   └── backup.sh          # Backup script
 └── README.md
-```
 
-## 🏃 Quick Start
-
-1. Clone the repository
-2. Import the database:
-   ```bash
-   mysql -u root -p < sql/01_schema.sql
-   ```
-3. Load sample data:
-   ```bash
-   mysql -u root -p < sql/02_data.sql
-   ```
-4. Run queries:
-   ```sql
-   USE LibraryDB;
-   SELECT * FROM Books;
-   ```
 
 ## 📊 Sample Queries
 
